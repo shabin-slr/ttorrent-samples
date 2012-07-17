@@ -1,0 +1,82 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <name>ttorrent samples</name>
+  <url>http://github.com/sroze/ttorrent-samples/</url>
+  <groupId>examples</groupId>
+  <artifactId>ttorrent-samples</artifactId>
+  <version>1.1.2</version>
+  <packaging>jar</packaging>
+
+  <organization>
+    <name>Samuel ROZE.</name>
+    <url>http://www.d-sites.com</url>
+  </organization>
+
+  <scm>
+    <connection>scm:git:git://github.com/sroze/ttorrent-samples.git</connection>
+    <url>http://github.com/sroze/ttorrent-samples</url>
+  </scm>
+
+  <licenses>
+    <license>
+      <name>Apache Software License version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/sroze/ttorrent-samples/issues</url>
+  </issueManagement>
+
+  <repositories>
+    <repository>
+      <id>jboss-thirdparty-releases</id>
+      <name>JBoss Thirdparty Releases</name>
+      <url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/</url>
+    </repository>
+  </repositories>
+
+  <developers>
+    <developer>
+      <id>sroze</id>
+      <name>Samuel ROZE</name>
+      <email>samuel.roze@gmail.com</email>
+      <url>http://www.d-sites.com</url>
+      <roles>
+        <role>maintainer</role>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>2</timezone>
+    </developer>
+  </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>net.sf</groupId>
+      <artifactId>jargs</artifactId>
+      <version>1.0</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-log4j12</artifactId>
+      <version>1.6.4</version>
+    </dependency>
+  </dependencies>
+
+  <build>
+    <defaultGoal>package</defaultGoal>
+    <directory>${basedir}/build</directory>
+
+    <plugins>
+    </plugins>
+  </build>
+</project>
