@@ -7,4 +7,7 @@ IMPORTANT: This is the 2.0 branch which contains examples based on the ttorrent 
 Examples
 ========
 
-Nothing for the moment.
+- DirectoryTracker, which provide an example of implementation of a tracker that reads a directory, compute the .torrent files and seed them. 
+  Note that with an argument, it can be UDP or HTTP tracker.
+  
+- SimpleClient, takes a .torrent file and download it.
